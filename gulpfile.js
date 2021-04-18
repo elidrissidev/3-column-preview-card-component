@@ -10,4 +10,7 @@ const css = () => src('src/*.css')
   .pipe(cleanCSS())
   .pipe(dest('dist'))
 
-exports.default = parallel(html, css)
+const images = () => src('images/*')
+  .pipe(dest('dist/images'))
+
+exports.default = parallel(html, css, images)
