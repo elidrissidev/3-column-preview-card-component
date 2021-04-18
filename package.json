@@ -1,0 +1,13 @@
+{
+  "name": "frontendmentor-3-column-preview-card-component",
+  "private": true,
+  "scripts": {
+    "watch": "gulp watch",
+    "build": "gulp"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1"
+  }
+}

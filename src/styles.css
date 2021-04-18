@@ -1,0 +1,133 @@
+:root {
+  --body-font-size: 15px;
+  --font-family-display: 'Big Shoulders Display', cursive;
+  --font-family-sans-serif: 'Lexend Deca', sans-serif;
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --transparent-white: hsla(0, 0%, 100%, 0.75);
+  --very-light-gray: hsl(0, 0%, 95%);
+  --card-border-radius: 8px;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 95%);
+  font-size: var(--body-font-size);
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  padding: 4rem 1.25rem;
+}
+
+.card {
+  background-color: var(--card-color);
+  padding: 3rem;
+}
+
+.card:nth-child(1) {
+  --card-color: var(--bright-orange);
+}
+
+.card:nth-child(2) {
+  --card-color: var(--dark-cyan);
+}
+
+.card:nth-child(3) {
+  --card-color: var(--very-dark-cyan);
+}
+
+.card:nth-child(1) {
+  border-top-left-radius: var(--card-border-radius);
+  border-top-right-radius: var(--card-border-radius);
+}
+
+.card:nth-child(3) {
+  border-bottom-left-radius: var(--card-border-radius);
+  border-bottom-right-radius: var(--card-border-radius);
+}
+
+.card-body .header {
+  color: var(--very-light-gray);
+  font-family: var(--font-family-display);
+  font-size: 2.25rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 1.5rem 0;
+}
+
+.card-body .content {
+  color: var(--transparent-white);
+  font-family: var(--font-family-sans-serif);
+  line-height: 175%;
+}
+
+.card-footer {
+  padding-top: 1rem;
+}
+
+.btn {
+  background-color: var(--very-light-gray);
+  border: 2px solid var(--very-light-gray);
+  border-radius: 999px;
+  cursor: pointer;
+  color: var(--card-color);
+  font-family: var(--font-family-sans-serif);
+  padding: 1rem 2rem;
+  text-transform: capitalize;
+}
+
+.btn:hover {
+  background-color: var(--hover-bg-color);
+  color: var(--very-light-gray);
+}
+
+.attribution {
+  justify-self: end;
+  font-family: var(--font-family-sans-serif);
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card {
+    max-width: 200px;
+  }
+
+  .card:nth-child(1) {
+    border-radius: 0;
+    border-top-left-radius: var(--card-border-radius);
+    border-bottom-left-radius: var(--card-border-radius);
+  }
+
+  .card:nth-child(3) {
+    border-radius: 0;
+    border-top-right-radius: var(--card-border-radius);
+    border-bottom-right-radius: var(--card-border-radius);
+  }
+
+  .card-footer {
+    margin-top: 4rem;
+  }
+}
