@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/3column-preview-card-component-using-pure-css-and-gulp-oOftOQqS8)
+- [Live Site URL](https://3-column-preview-card-component-woad.vercel.app/)
 
 ## My process
 
@@ -39,7 +39,7 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/elidrissidev)
+- Frontend Mentor - [@elidrissidev](https://www.frontendmentor.io/profile/elidrissidev)
 
 ## License
 
