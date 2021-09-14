@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/3column-preview-card-component-using-pure-css-and-gulp-oOftOQqS8)
-- [Live Site URL](https://3-column-preview-card-component-woad.vercel.app/)
+- [Live Site URL](https://3-column-preview-card-component-mb7bbd4qd-elidrissidev.vercel.app/)
 
 ## My process
 
